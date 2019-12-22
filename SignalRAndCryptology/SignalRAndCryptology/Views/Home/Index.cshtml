@@ -1,0 +1,114 @@
+﻿@using SignalRAndCryptology.Cryptology.Concrete.Enum
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.1.4/signalr.js"></script>
+</head>
+
+<body>
+    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center">
+        <div style="position:relative; width:550px;">
+
+            <input type="text" id="userName" name="userName" placeholder="username" />
+            <input type="text" id="message" name="message" placeholder="message" />
+            <button id="sendMessage">Send</button>
+
+            <span style="position:absolute; right: 20px">
+                <b id="activeUserCount">
+
+                </b>
+            </span>
+
+            <br /><br />
+
+            <select id="cryptorType" class="form-control" asp-items="@Html.GetEnumSelectList<EnumCryptor>()"></select>
+
+
+        </div>
+
+        <ul id="messageList" style="align-self:flex-start"></ul>
+
+    </div>
+
+    <script>
+
+        let userNameInput = document.getElementById('userName');
+        let messageInput = document.getElementById('message');
+        let sendMessageButton = document.getElementById('sendMessage');
+        let cryptorTypeSelectList = document.getElementById('cryptorType');
+        let messageList = document.getElementById('messageList');
+        let activeUserCount = document.getElementById('activeUserCount');
+
+        let clearInput = () => {
+            userName.value = "";
+            messageInput.value = "";
+        }
+
+        let inputsAreEmpty = () => {
+            return userNameInput.value == "" || messageInput.value == "";
+        }
+
+        var connection = new signalR
+                    .HubConnectionBuilder()
+                    .withUrl("/chat")
+                    .build();
+
+        connection
+            .start()
+            .catch(error => {
+                console.error(error);
+            });
+
+
+        sendMessage.addEventListener('click', () => {
+
+            if (inputsAreEmpty()){
+                alert("Please fill the all base.")
+                return;
+            }
+
+            let userName = userNameInput.value;
+            let message = messageInput.value;
+            let cryptorType = cryptorTypeSelectList.value;
+
+            let messageObject = {
+                'UserName': userName,
+                'Message': message,
+                'CryptorType' : cryptorType
+            };
+
+            connection.invoke('CreateNewMessage', messageObject);
+
+            messageInput.value = "";
+            messageInput.focus();
+        })
+
+        connection.on('GetEncryptNewMessage', (messageModel) => {
+
+            console.log(messageModel);
+
+            connection.invoke('Decrypt', messageModel);
+        })
+
+        connection.on('GetDecryptNewMessage', (messageModel) => {
+
+            let newLiChild = document.createElement('li');
+
+            newLiChild.innerHTML =
+                `<b>${messageModel.userName}</b>: -> ${messageModel.message} <i>${messageModel.toLongTimeString}</i>`;
+
+            messageList.insertBefore(newLiChild, messageList.firstChild);
+        })
+
+        connection.on('GetOnlineMemberCount', (olineMemberCount) => {
+            activeUserCount.innerText = `${olineMemberCount} active member.`;
+        })
+
+    </script>
+
+</body>
+</html>
