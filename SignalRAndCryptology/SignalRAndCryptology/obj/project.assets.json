@@ -12121,11 +12121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yusuf\\source\\repos\\SignalRAndCryptology\\SignalRAndCryptology\\SignalRAndCryptology.csproj",
+      "projectUniqueName": "D:\\Program Files\\GitHub\\SignalR-and-Cryptology\\SignalRAndCryptology\\SignalRAndCryptology\\SignalRAndCryptology.csproj",
       "projectName": "SignalRAndCryptology",
-      "projectPath": "C:\\Users\\Yusuf\\source\\repos\\SignalRAndCryptology\\SignalRAndCryptology\\SignalRAndCryptology.csproj",
+      "projectPath": "D:\\Program Files\\GitHub\\SignalR-and-Cryptology\\SignalRAndCryptology\\SignalRAndCryptology\\SignalRAndCryptology.csproj",
       "packagesPath": "C:\\Users\\Yusuf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yusuf\\source\\repos\\SignalRAndCryptology\\SignalRAndCryptology\\obj\\",
+      "outputPath": "D:\\Program Files\\GitHub\\SignalR-and-Cryptology\\SignalRAndCryptology\\SignalRAndCryptology\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
