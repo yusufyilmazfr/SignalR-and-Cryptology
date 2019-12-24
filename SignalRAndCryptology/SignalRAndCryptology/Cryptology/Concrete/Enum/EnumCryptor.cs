@@ -10,6 +10,8 @@ namespace SignalRAndCryptology.Cryptology.Concrete.Enum
         CAESAR = 1,
         POLYBIUS,
         PICKETFENCE,
-        COLUMNAR
+        COLUMNAR,
+        DES,
+        AES
     }
 }

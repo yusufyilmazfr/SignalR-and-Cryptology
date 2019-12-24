@@ -31,7 +31,6 @@ D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCr
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\bin\Debug\netcoreapp2.2\SignalRAndCryptology.Views.dll
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\bin\Debug\netcoreapp2.2\SignalRAndCryptology.Views.pdb
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.csprojAssemblyReference.cache
-D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.csproj.CoreCompileInputs.cache
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.RazorAssemblyInfo.cache
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.RazorAssemblyInfo.cs
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.AssemblyInfoInputs.cache
@@ -39,12 +38,13 @@ D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCr
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.TagHelpers.input.cache
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.TagHelpers.output.cache
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.RazorCoreGenerate.cache
-D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
-D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.RazorTargetAssemblyInfo.cache
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.RazorTargetAssemblyInfo.cs
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.Views.pdb
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.dll
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.pdb
 D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.csproj.CopyComplete
+D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\SignalRAndCryptology.csproj.CoreCompileInputs.cache
+D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Program Files\GitHub\SignalR-and-Cryptology\SignalRAndCryptology\SignalRAndCryptology\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs

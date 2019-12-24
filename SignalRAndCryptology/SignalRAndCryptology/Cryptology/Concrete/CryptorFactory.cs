@@ -21,6 +21,10 @@ namespace SignalRAndCryptology.Cryptology.Concrete
                     return new PicketFence();
                 case EnumCryptor.COLUMNAR:
                     return new Columnar();
+                case EnumCryptor.DES:
+                    return new DES();
+                case EnumCryptor.AES:
+                    return new AES();
                 default:
                     throw new Exception("Unknown ICryptor instance");
             }
